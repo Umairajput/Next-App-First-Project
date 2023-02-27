@@ -50,8 +50,8 @@ export default function LandingPage() {
                 <Image src="" alt="" />
               </div>
               <div className="floating-div">
-                <div className="watch-1"><Image src={pic1} className='img' /></div>
-                <div className="watch-2"><Image src={pic2} className='img' /></div>
+                <div className="watch-1"><Image src={pic2} className='img' /></div>
+                <div className="watch-2"><Image src={pic1} className='img' /></div>
                 <div className="watch-3"><Image src={pic3} className='img' /></div>
               </div>
 
