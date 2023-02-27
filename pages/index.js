@@ -18,13 +18,19 @@ export default function Home() {
           <span></span>
           <span></span>
           <ul>
-            <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </div>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
       </nav>
+
 
     </>
   )
