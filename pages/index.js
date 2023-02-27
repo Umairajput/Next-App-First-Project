@@ -22,7 +22,7 @@ export default function Home() {
         <ul>
           <li><Link href="/">Home</Link></li>
           <li><Link href="/About">About</Link></li>
-          <li><button onClick={handleOk}>Services</button></li>
+          <li><Link href="/Service">Services</Link></li>
           <li><Link href="#">Contact</Link></li>
         </ul>
       </nav>
