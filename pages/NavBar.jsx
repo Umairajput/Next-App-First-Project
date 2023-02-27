@@ -4,9 +4,6 @@ import logo from '../assets/Images/clothes_logo.png'
 import { useRouter } from 'next/router'
 function Navbar() {
     const router = useRouter()
-    const handleOk = () => {
-      router.push('/Service')
-    }
   return (
     <>
       <header>
@@ -15,8 +12,8 @@ function Navbar() {
           <ul>
           <li><Link href="/">Home</Link></li>
           <li><Link href="/About">About</Link></li>
-          <li><button onClick={handleOk}>Services</button></li>
-          <li><Link href="#">Contact</Link></li>
+          <li><Link href="/Service">Services</Link></li>
+          <li><Link href="/Contact">Contact</Link></li>
           </ul>
         </nav>
       </header>
