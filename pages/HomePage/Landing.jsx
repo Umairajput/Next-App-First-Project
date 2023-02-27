@@ -1,28 +1,28 @@
-// import Slider from "./Slider"
+import Slider from "./Slider"
 import logo from '../../assets/Images/clothes_logo.png'
 import Image from "next/image"
 export default function LandingPage() {
   let product = [
     {
-      img: {logo},
+      img: logo,
       Product: 'name',
       price: '200$',
       button: 'Add To Cart'
     },
     {
-      img: {logo},
+      img: logo,
       Product: 'name',
       price: '200$',
       button: 'Add To Cart'
     },
     {
-      img: {logo},
+      img: logo,
       Product: 'name',
       price: '200$',
       button: 'Add To Cart'
     },
     {
-      img: {logo},
+      img: logo,
       Product: 'name',
       price: '200$',
       button: 'Add To Cart'
@@ -33,7 +33,7 @@ export default function LandingPage() {
   ]
   return (
     <>
-      {/* <Slider /> */}
+      <Slider />
       <main>
         {product?.map((v, i) => {
           return (
