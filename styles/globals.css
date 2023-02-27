@@ -150,12 +150,13 @@ input {
 
 .container {
   margin: 0 auto;
-  max-width: 100%;
+  width: 80%;
+  overflow-x: scroll;
   max-height: 0%;
   padding: 3rem;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 
 }
