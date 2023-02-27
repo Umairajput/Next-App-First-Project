@@ -4,10 +4,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 8vh;
 }
 
 .logo img {
-  height: 50px; /* adjust this value as needed */
+  height: 100%;
 }
 
 ul {
@@ -38,7 +39,7 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
   .logo img {
-    height: 40px;
+    height: 100%;
   }
   
   .menu-toggle {
@@ -60,9 +61,9 @@ a:hover {
   
   .menu-toggle ul {
     position: absolute;
-    top: 60px;
+    top: 8vh;
     left: 0;
-    background-color: #333;
+    background-color: #0071e2;
     width: 100%;
     padding: 10px;
     display: none;
