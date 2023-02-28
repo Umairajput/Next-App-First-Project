@@ -17,6 +17,7 @@ function Navbar() {
           </ul>
         </nav>
       </header>
+      {/* <h1  className=' bg-slate-500 p-5 '>hello</h1> */}
     </>
   );
 }
